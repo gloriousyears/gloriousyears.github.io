@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试文章</title>
+</head>
+<body>
+var text = "Markdown *rocks*.";
+var converter = new Showdown.converter();
+var html = converter.makeHtml(text);
+alert(html);
+</body>
+</html>
